@@ -1,15 +1,4 @@
-// Your web app's Firebase configuration
-var firebaseConfig = {
-    apiKey: "APPI KEY",
-    authDomain: "AUTH URL",
-    databaseURL: "DATABASE URL",
-    projectId: "PROJECT ID",
-    storageBucket: "STORAGE URKL",
-    messagingSenderId: "SENDER ID",
-    appId: "APP ID"
-};
-// Initialize Firebase
-firebase.initializeApp(firebaseConfig);
+// initialize firestore from firebase object
 var firestore = firebase.firestore();
 // samples = our main collection. (collection is a collection of documents)
 // sandwichData = our first document. (document is a object of data)
