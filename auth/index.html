@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase - Auth</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-auth.js"></script>
+</head>
+<body>
+    <div>
+        <h2 id="title">Firebase Auth:</h2>
+        <input type="text" id="email" placeholder="email">
+        <input type="password" id="password" placeholder="password">
+        <div style="margin-top: 5px;">
+            <button id="signin" type="button">sign in</button>
+            <button id="signup" type="button">sign up</button>
+            <button id="signout" type="button" class="hidden">sign out</button>
+        </div>
+    </div>
+    <script src="../firebaseconfig.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
